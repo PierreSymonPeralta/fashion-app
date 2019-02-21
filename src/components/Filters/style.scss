@@ -1,0 +1,28 @@
+@import '../../style/shared';
+
+.filters{
+  position: fixed;
+  top: 5em;
+  width: 78%;
+  z-index: 2;
+  // background-color: aqua;
+  display: flex;
+  padding: 1em;
+  & > div{
+    display: flex;
+    width: 50%;
+  }
+  .filters__left{
+    justify-content: flex-start;
+  }
+  .filters__right{
+    justify-content: flex-end;
+  }
+  // background-color: antiquewhite;
+  .btn__filter{
+    &::after{
+      content: url('./filter-icon.svg');
+      margin-left: 3px;
+    }
+  }
+}

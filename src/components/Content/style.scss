@@ -1,0 +1,12 @@
+@import '../../style/shared';
+
+.content{
+  margin-top: 10em;
+  margin-left: 3em;
+  width: 75%;
+  background-color: $white;
+  .content__gallery{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

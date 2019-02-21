@@ -1,0 +1,11 @@
+@import '../../style/shared';
+
+
+.card{
+  padding: 0.5em;
+  border-radius: 3px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.15);
+  margin: 0.5em;
+  width: calc(300px + 1em);
+}
+
